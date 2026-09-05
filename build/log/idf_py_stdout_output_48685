@@ -1,0 +1,19 @@
+Command: ninja all
+[1/9] Building C object esp-idf/bus/CMakeFiles/__idf_bus.dir/i2c_bus.c.obj
+[2/9] Linking C static library esp-idf/bus/libbus.a
+[3/9] Performing build step for 'bootloader'
+[1/1] cd /home/arjun/esp/hello_world/build/bootloader && /home/arjun/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/arjun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/arjun/esp/hello_world/build/bootloader/bootloader.bin
+Bootloader binary size 0x6640 bytes. 0x9c0 bytes (9%) free.
+[4/9] No install step for 'bootloader'
+[5/9] Completed 'bootloader'
+[6/9] Generating esp-idf/esp_system/ld/sections.ld
+Skipping linker script generation, section names unchanged
+[7/9] Linking CXX executable hello_world.elf
+[8/9] Generating binary image from built executable
+esptool v5.3.1
+Creating ESP32 image...
+Merged 3 ELF sections.
+Successfully created ESP32 image.
+Generated /home/arjun/esp/hello_world/build/hello_world.bin
+[9/9] cd /home/arjun/esp/hello_world/build && /home/arjun/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/arjun/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/arjun/esp/hello_world/build/partition_table/partition-table.bin /home/arjun/esp/hello_world/build/hello_world.bin
+hello_world.bin binary size 0x248a0 bytes. Smallest app partition is 0x100000 bytes. 0xdb760 bytes (86%) free.

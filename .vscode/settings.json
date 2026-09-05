@@ -1,0 +1,12 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.extensionActivationMode": "always",
+  "idf.espIdfPath": "/home/arjun/esp/esp-idf",
+  "idf.toolsPath": "/home/arjun/.espressif",
+  "idf.pythonBinPath": "/home/arjun/.espressif/tools/python/v6.1/venv/bin/python",
+  "cmake.configureOnOpen": false,
+  "cmake.configureOnEdit": false,
+  "cmake.automaticReconfigure": false,
+  "cmake.autoSelectActiveFolder": false,
+  "idf.currentSetup": "/home/arjun/esp/esp-idf"
+}

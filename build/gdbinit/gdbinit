@@ -1,0 +1,2 @@
+source /home/arjun/esp/hello_world/build/gdbinit/symbols
+source /home/arjun/esp/hello_world/build/gdbinit/connect
