@@ -1,4 +1,4 @@
-# ESP32 Bare-Metal BMP280 I2C Driver (ESP-IDF)
+# ESP32 BMP280 I2C Driver using ESP-IDF
 
 A lightweight, bare-metal I2C driver for the Bosch BMP280 Temperature and Pressure sensor, built from scratch using the native ESP-IDF I2C Master API. 
 
